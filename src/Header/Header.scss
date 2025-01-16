@@ -1,0 +1,35 @@
+%knopka{
+    font-size: 19px;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url('./img/c3f3c358df4358e00dd3140269db2967.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    nav{
+        width: 800px;
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            @extend %knopka;
+        }
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        width: 672px;
+        height: 68px;
+        font-size: 68px;
+        align-items: center;
+        margin-top: 200px;
+        
+    }
+}
