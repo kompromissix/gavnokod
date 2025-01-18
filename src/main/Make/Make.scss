@@ -1,0 +1,55 @@
+.background1{
+    width: 100%;
+    height: 725px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left_pizdec_absolut{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 84px;
+        height: 473px;
+        width: 468px;
+        
+        div{
+            h2{
+                font-size: 68px;
+                font-weight: 400    ;
+            }
+            p{
+                font-size: 19px;
+            }
+        }
+        .left_pizdec_absolut_button{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 276px;
+            height: 50px;
+            button{
+                width: 155px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 40px;
+            }
+        }
+    }
+    .right_pizdec_absolut{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 600px;
+        padding-top: 35px;
+        .right_pizdec_absolut_bottom{
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
